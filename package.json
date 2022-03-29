@@ -4,8 +4,8 @@
   "description": "node hw",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "build": "node app.js"
+    "start": "node server.js",
+    "build": "node server.js"
   },
   "author": "dmytro romanenko",
   "license": "ISC",
