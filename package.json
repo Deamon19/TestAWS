@@ -1,0 +1,23 @@
+{
+  "name": "nodehw",
+  "version": "1.0.0",
+  "description": "node hw",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "node app.js"
+  },
+  "author": "dmytro romanenko",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.17.1",
+    "loglevel": "^1.7.1",
+    "loglevel-filesave": "^1.0.0",
+    "loglevel-plugin-prefix": "^0.8.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
