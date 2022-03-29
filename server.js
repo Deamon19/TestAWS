@@ -12,9 +12,10 @@ app.use(express.json());
 
 app.get('/api/files', (request, response) => {
   try {
-    logger.debug('Debug')
-    logger.info('info')
-    logger.warn('warn')
+    logger.debug('Debug lvl')
+    logger.info('info lvl')
+    logger.warn('warn lvl')
+    logger.error('err lvl')
     response.status(200).json({
       message: 'Success',
     });
@@ -22,6 +23,7 @@ app.get('/api/files', (request, response) => {
   } catch (e) {
     logger.error('error')
   }
+  return 'Returned inf'
 });
 
 app.listen(port, (err) => {
